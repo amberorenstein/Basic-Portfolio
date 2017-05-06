@@ -1,0 +1,240 @@
+body {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	font-size: 20px;
+	background-image: url("../images/old_moon_@2x.jpg");
+}
+
+/* Header--all pages */
+.nav {
+	background-color: #ffffff;
+	border-bottom: 5px solid #cccccc;
+	width: 100%;
+	padding: 10px;
+	text-align: right;
+	margin: 0px 0px 40px 0px;
+	height: 50px;
+	float: left;
+}
+
+/* Header--all pages */
+.name {  
+	background-color: #4aaaa5;
+	line-height: 50px;
+	width: 200px auto;
+	height: 100px;
+	margin: -20px 0px 0px 80px;
+	top: 0;
+	font-family: "Georgia", Times, serif;
+	font-size: 24px; 
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	z-index: 1;
+
+}
+
+/* Header Nav--all pages */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/* Header Nav--all pages */
+
+li {
+	float: right;
+}
+/* Header Nav--all pages */
+
+li a {
+	display: block;
+	color: #777777;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Header Nav--all pages */
+
+li a:hover {
+	background-color: #cccccc;
+}
+
+h2 {
+	font-family: "Georgia", Times, serif;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+/* holds two main components--all pages */
+.container {
+	float: left;
+	margin: 0;
+	width: 100%;
+	height: 1200px;
+ 	
+}
+
+/* Bio headshot--About */
+
+#img {
+	float: left;
+	z-index: 2;
+}
+
+/* main content div */
+
+.main {
+	float: left;
+	position: absolute;
+	width: 650px;
+	height: 800px auto;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	margin: 50px 150px;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.main-portfolio {
+	float: left;
+	position: absolute;
+	width: 700px;
+	height: 800px auto;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	margin: 50px 150px;
+	line-height: 1.5;
+	font-size: 18px;
+
+}
+
+#contact-form {
+	float: left;
+	width: 650px;
+	height: 800px auto;
+	background-color: #fff;
+	border: 2px solid #dddddd;
+	margin: 50px 150px;
+	position: absolute;
+	line-height: 1.5;
+	font-size: 18px;
+	padding-left: 20px;
+}
+
+.connect {
+	float: left;
+	position: absolute;
+	font-family: "Georgia", Times, serif;
+	background-color: #ffffff;
+	width: 250px auto;
+	height: 80px auto;
+	margin: 50px 150px 50px 900px;
+	color: #4aaaa5;
+}
+
+
+.portfolio-images {
+	float: left;
+	padding: 15px 20px;
+	position: relative;
+}
+
+.img-label {
+	position: absolute;
+	clear: both;
+	width: 300px;
+	height: 50px;
+	margin: 150px 0	0 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	overflow: hidden;
+}
+
+.img-label2 {
+	position: absolute;
+	clear: both;
+	width: 300px;
+	height: 50px;
+	margin: 150px 0 0 360px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	overflow: hidden;
+}
+
+.img-label3 {
+	position: absolute;
+	clear: both;
+	width: 300px;
+	height: 50px;
+	margin: 380px 0	0 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	overflow: hidden;
+}
+
+.img-label4 {
+	position: absolute;
+	clear: both;
+	width: 300px;
+	height: 50px;
+	margin: 380px 0	0 360px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	overflow: hidden;
+}
+
+.img-label5 {
+	position: absolute;
+	clear: both;
+	width: 300px;
+	height: 50px;
+	margin: 620px 0	0 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	overflow: hidden;
+}
+
+
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+footer {
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	background-color: #666666;
+	margin-top: 20px;
+	padding: 20px;
+	border-top: 5px solid #4aaaa5;
+	bottom: 0;
+	line-height: 70px;
+	z-index: 3;
+
+}
+
